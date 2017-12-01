@@ -1,0 +1,115 @@
+
+header {
+  display: flex;
+  height: auto;
+  width: auto;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  flex-grow: 1;
+}
+
+a {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  align-items: center;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  padding: 20px 20px;
+
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.columnLarge {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  width: 630px;
+  border: 1px solid black;
+}
+
+h2 {
+  display: block;
+}
+
+.leadStory {
+  border: 1px solid black;
+}
+
+.popCultureImageContent {
+  border: 1px solid black;
+}
+
+p {
+  display: block;
+}
+
+.imageContent {
+  border: 1px solid black;
+}
+
+.textContent {
+  border: 1px solid black;
+}
+
+.columnMedium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.catCEOImageContent {
+  border: 1px solid black;
+}
+
+.columnSmall {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.newsBites {
+  border: 1px solid black;
+  display: block;
+}
+
+h3 {
+  display: block;
+  font-weight: bold;
+}
